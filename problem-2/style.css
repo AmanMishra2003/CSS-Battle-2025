@@ -1,0 +1,86 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(29, 28, 28);
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    width: 60vw;
+    height: 50vh;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.image{
+    height: 100%;
+    width: 30%;
+    object-fit: contain;
+}
+
+.information{
+    border-left: 2px solid white;
+    height: 100%;
+    width: 100%;
+    padding:20px 40px;
+}
+
+.information .name{
+    font-size: 3rem;
+    color: white;
+}
+
+.name{
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tags{
+    display: flex;
+    gap: 10px;
+}
+
+.tags li{
+    background-color: bisque;
+    padding: .5em;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.tag-list-div{
+    border-bottom: 2px solid white;
+    padding: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: red
+}
+
+
+.platformId-list li{
+    background-color: rgb(182, 180, 180);
+}
+.social-media-stats li{
+    background-color: azure;
+    text-transform: capitalize;
+}
+
+.stack-list-stats li{
+    background-color: rgb(169, 234, 234);
+}
